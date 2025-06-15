@@ -13,7 +13,6 @@ import (
 
 type AuthRequest struct {
 	UserID string `json:"user_id"`
-	Secret string `json:"secret"`
 }
 
 func GetToken(w http.ResponseWriter, r *http.Request) {
